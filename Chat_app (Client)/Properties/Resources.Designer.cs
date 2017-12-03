@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Chat_app__Client_.Properties {
+namespace Entry_Point.Properties {
 
 
     /// <summary>
@@ -38,7 +38,7 @@ namespace Chat_app__Client_.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager ("Chat_app__Client_.Properties.Resources", typeof (Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager ("Chat_app_Client.Properties.Resources", typeof (Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

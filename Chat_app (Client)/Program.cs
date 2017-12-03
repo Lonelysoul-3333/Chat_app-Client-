@@ -1,19 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿// Using namespace members section:
+using System;
+using Controller;
 
-namespace Chat_app__Client_ {
+namespace Entry_Point {
     static class Program {
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        // COM threading model: single-threaded apartment:
         [STAThread]
-        static void Main () {
-            Application.EnableVisualStyles ();
-            Application.SetCompatibleTextRenderingDefault (false);
-            Application.Run (new Form1 ());
+        // Main method:
+        static void Main (){
+
+            // Variables declaration:
+            Client_Control client_controller;
+
+            // TODO code application logic here:
+            client_controller = new Client_Control ();
         }
     }
 }
